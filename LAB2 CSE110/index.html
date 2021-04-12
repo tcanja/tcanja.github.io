@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>
+            Lab 2 Journal Entries - Tiana Canja
+        </title>
+        <meta name = "description" content = "This is my lab 2 journal entries">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#day1">Day 1</a>
+                    </li> 
+                    <li>
+                        <a href="#day2">Day 2</a>
+
+                    </li>
+                    <li>
+                        <a href="#day3">Day 3</a>
+
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>
+                Journal Entries
+            </h1>
+            <p>
+                Here are my journal entries for the last 3 days of my life.
+            </p>
+        </main>
+       <hr/> 
+       <section id="day1">
+            <h1>
+                Day 1 - 4.9.21
+            </h1>
+            <p>
+                Reasons why my weekdays are so <b>hectic</b> <i>Friday edition</i>
+            </p>
+            <ol>
+                <li>
+                    I start each day going to my local coffee shop <strong> if I don't have work</strong>
+                </li>
+                <li>
+                    I watch as many lectures as I can before starting homework.
+                </li>
+                <li>
+                    I go to work for 4-5 hours.
+                </li>
+                <li>
+                    After work I complete any left over assignments.
+                </li>
+            </ol>
+            <p>
+                Here is a song that puts me in a better mood to get through the day
+            </p>
+            <audio controls>
+                <source src="peaches.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </section> 
+       <hr/>  
+        <section id="day2">
+            <h1>
+                Day 2 - 4.10.21
+            </h1>
+            <h2>
+                This is a very important person to me.
+            </h2>
+            <p>
+                Here we are celebrating his sister's birthday.
+            </p>
+            <img src="lab 2 img.jpg" alt="Tiana and Tyler" width="300" height="400">
+        </section> 
+       <hr/>
+        <section id="day3">
+            <h1>
+                Day 3 - 4.11.21
+            </h1>
+            <h2>
+                This is another important person in my life
+            </h2>
+            <details>
+                <summary>She's always there when I need her.</summary>
+                <p>
+                    Here is an <strong>old </strong> video of us that she sent me today to keep my spirits up.
+                    I <em>always</em> reach out to her when I'm feeling low. She's able to remind me that all of my
+                    hard work is going to be worth it in the end. 
+                </p>
+            </details>
+            <br/>
+            <h3>
+                Bahar and I on Big Little Reveal!
+            </h3>
+            <video width="320" height="240" controls>
+                <source src="big little.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+        </section>
+        <div>
+            <p>
+                *Future Days to Come*
+            </p>
+        </div>
+        <form>
+            <fieldset>
+                <legend> New Journal Entry</legend>
+                <p>How was your day?</p>
+                <input type="radio" id="fine" name="mood">
+                <label for="fine">Fine</label>
+                <br />
+                <input type="radio" id="good" name="mood">
+                <label for="good">Good</label>
+                <br />
+                <input type="radio" id="great" name="mood">
+                <label for="great">Great</label>
+                <br />   
+                <label for="doftw">What's the day of the week?</label>
+                <input type="text" id="doftw">
+                <br />
+                <input type="date" id="date">
+                <br />
+                         
+                <p>Give me a summary of the day.</p>
+                <textarea id="summary" rows="4" cols="50"></textarea>
+                <br />
+                <p>What is your favorite day of the week?</p>
+                <input type="checkbox" id="m" name="day">
+                <label for="m">Monday</label>
+                <input type="checkbox" id="tu" name="day">
+                <label for="tu">Tuesday</label>
+                <input type="checkbox" id="w" name="day">
+                <label for="w">Wednesday</label>
+                <input type="checkbox" id="th" name="day">
+                <label for="th">Thursday</label>
+                <br/>
+                <input type="checkbox" id="f" name="day">
+                <label for="f">Friday</label>   
+                <input type="checkbox" id="sa" name="day">
+                <label for="sa">Saturday</label>
+                <input type="checkbox" id="su" name="day">
+                <label for="su">Sunday</label>
+                <br/>
+                <label for="happy">Choose something that makes you <span>happy</span>:</label>
+                <input list="happys" name="happy" id="happy">
+                <datalist id="happys">
+                    <option value="Dogs">
+                    <option value="Cats">
+                    <option value="Friends">
+                    <option value="Music">
+                    <option value="Dancing">
+                    </datalist>
+                <br/>
+                <label for="dayType">How do you think tomorrow will be:</label>
+                <select name="feeling" id="dayType">
+                <option value="bad">Bad</option>
+                <option value="fine">Fine</option>
+                <option value="good">Good</option>
+                <option value="great">Great</option>
+                </select>
+                <br/>
+                <input type="button" value="Submit">
+            </fieldset>
+
+        </form>
+    </body>
+</html>
